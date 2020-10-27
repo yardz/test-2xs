@@ -1,0 +1,18 @@
+.list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	background: #d7d7d7;
+	padding: 10px;
+	justify-content: space-between;
+
+	.link {
+		flex-basis: 19%;
+		text-decoration: none;
+		margin-bottom: 20px;
+		:hover {
+			background: #a7a7a7;
+		}
+	}
+}

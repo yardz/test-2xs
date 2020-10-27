@@ -1,0 +1,23 @@
+{
+    "extends": [
+        "react-app"
+    ],
+    "rules": {
+        "react/self-closing-comp": [
+            "error",
+            {
+                "component": true,
+                "html": true
+            }
+        ],
+        "no-restricted-imports": [
+            "error",
+            {
+                "patterns": [
+                    "@material-ui/*/*/*",
+                    "!@material-ui/core/test-utils/*"
+                ]
+            }
+        ]
+    }
+}

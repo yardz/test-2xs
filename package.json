@@ -1,0 +1,61 @@
+{
+  "name": "test-2xs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.2.5",
+    "axios": "^0.21.0",
+    "query-string": "^6.13.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-google-maps": "^9.4.5",
+    "react-redux": "^7.2.0",
+    "react-scripts": "4.0.0",
+    "react-toastify": "^6.0.9",
+    "redux-persist": "^6.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint:es": "eslint --max-warnings=0 --ext js,ts,tsx src",
+    "lint:ts": "tslint -p tsconfig.json -c tslint.json",
+    "lint": "npm run lint:ts && npm run lint:es",
+    "format": "prettier --write \"src/**/*.{ts,tsx,json}\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/redux-mock-store": "^1.0.2",
+    "node-sass": "^4.14.1",
+    "prettier": "1.17.0",
+    "redux-mock-store": "^1.5.4",
+    "tslint": "^5.20.1",
+    "tslint-plugin-prettier": "^2.1.0",
+    "tslint-react": "^4.2.0",
+    "typed-scss-modules": "^1.1.0",
+    "typescript": "~3.8.2"
+  }
+}
